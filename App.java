@@ -13,6 +13,8 @@ import java.util.Scanner;
 class App {
   public static void main(String[] args) {
     System.out.println("Juhász Roland");
+    System.out.println("Szoft I N, 2022.02.16 ");
+
     try (Scanner sc = new Scanner(System.in)) {
       System.out.print("alap:");
       double alap = sc.nextDouble();
